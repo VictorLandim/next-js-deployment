@@ -1,0 +1,51 @@
+body {
+    font-family: "Consolas", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 48px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 32px;
+    color: #335d92;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.counter-button {
+    font-family: monospace;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: #335d92;
+    background-color: rgba(68, 107, 158, 0.1);
+    border-radius: 10px;
+    border: 2px solid rgba(68, 107, 158, 0);
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.counter-button:focus {
+    border: 2px solid #335d92;
+}
+
+.counter-button:active {
+    background-color: rgba(68, 107, 158, 0.2);
+}
