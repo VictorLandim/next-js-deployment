@@ -5,6 +5,12 @@ import "./globals.css"
 
 export default function Home() {
     return (
+
+
+
+
+
+        
         <main>
             <h1>Next.js Counter</h1>
 
